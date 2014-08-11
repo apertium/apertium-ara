@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="test"/>
+  </sdefs>
+
+  <pardefs>
+
+    <pardef n="letters">
+      <!-- all letters should be put here -->
+      <e>
+        <i>ا</i>
+      </e>
+      <e>
+        <i>أ</i>
+      </e>
+      <e>
+        <i>إ</i>
+      </e>
+      <e>
+        <i>آ</i>
+      </e>
+      <e>
+        <i>ب</i>
+      </e>
+      <e>
+        <i>ت</i>
+      </e>
+      <e>
+        <i>ث</i>
+      </e>
+      <e>
+        <i>ج</i>
+      </e>
+      <e>
+        <i>ح</i>
+      </e>
+      <e>
+        <i>خ</i>
+      </e>
+      <e>
+        <i>د</i>
+      </e>
+      <e>
+        <i>ذ</i>
+      </e>
+      <e>
+        <i>ر</i>
+      </e>
+      <e>
+        <i>ز</i>
+      </e>
+      <e>
+        <i>س</i>
+      </e>
+      <e>
+        <i>ش</i>
+      </e>
+      <e>
+        <i>ص</i>
+      </e>
+      <e>
+        <i>ط</i>
+      </e>
+      <e>
+        <i>ظ</i>
+      </e>
+      <e>
+        <i>ع</i>
+      </e>
+      <e>
+        <i>غ</i>
+      </e>
+      <e>
+        <i>ف</i>
+      </e>
+      <e>
+        <i>ق</i>
+      </e>
+      <e>
+        <i>ك</i>
+      </e>
+      <e>
+        <i>ل</i>
+      </e>
+      <e>
+        <i>م</i>
+      </e>
+      <e>
+        <i>ن</i>
+      </e>
+      <e>
+        <i>ه</i>
+      </e>
+      <e>
+        <i>و</i>
+      </e>
+      <e>
+        <i>ي</i>
+      </e>
+    </pardef>
+
+    <pardef n="freepron">
+      <!-- all personal pronouns should be put here -->
+      <e><p><l>أنا<b/></l><r>ني<b/></r></p></e>
+      <e><p><l>أنت<b/></l><r>ك<b/></r></p></e>
+      <e><p><l>هو<b/></l><r>ه<b/></r></p></e>
+      <e><p><l>هي<b/></l><r>ها<b/></r></p></e>
+      <e><p><l>نحن<b/></l><r>نا<b/></r></p></e>
+      <e><p><l>أنتم<b/></l><r>كم<b/></r></p></e>
+    </pardef>
+
+
+  </pardefs>
+
+  <section id="main" type="standard">
+
+      <e>
+        <p>
+          <l><a/>ال<b/></l>
+          <r>ال</r>
+        </p>
+        <par n="letters"/>
+      </e> 
+
+      <e>
+        <p>
+          <l><a/>ل<b/>ال</l>
+          <r>لل</r>
+        </p>
+      </e> 
+
+      <e>
+        <p>
+          <l><a/>و<b/><a/>ل<b/>ال</l>
+          <r>ولل</r>
+        </p>
+      </e> 
+      <e>
+        <p>
+          <l><a/>و<b/><a/>ل<b/></l>
+          <r>و</r>
+        </p>
+        <par n="letters"/>
+      </e> 
+
+
+      <e>
+        <p>
+          <l><a/>ل<b/></l>
+          <r>ل</r>
+        </p> 
+        <par n="letters"/>
+      </e>
+
+      <e>
+        <p>
+          <l><a/>ل<b/><b/></l>
+          <r>ل</r>
+        </p> 
+        <par n="letters"/>
+      </e>
+
+      <e>
+        <p>
+          <l><a/>ب<b/></l>
+          <r>ب</r>
+        </p> 
+        <par n="letters"/>
+      </e>
+
+      <e>
+        <p>
+          <l><a/>ك<b/></l>
+          <r>ك</r>
+        </p> 
+        <par n="letters"/>
+      </e>
+
+      <e>
+        <p>
+          <l><a/>و<b/></l>
+          <r>و</r>
+        </p>
+        <par n="letters"/>
+      </e>
+
+      <e>
+        <p>
+          <l><a/>و<b/><b/></l>
+          <r>و</r>
+        </p>
+        <par n="letters"/>
+      </e>
+
+      <e>
+        <p>
+          <l><a/>أن<b/></l>
+          <r>أن</r>
+        </p>
+        <par n="freepron"/>
+      </e>
+
+  </section>
+
+</dictionary>

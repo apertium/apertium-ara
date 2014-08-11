@@ -1,0 +1,19 @@
+DELIMITERS = "<.>" "<:>" "<;>" "<!>" "<?>" "<|>" "<$.>" "<$:>" "<;>" "<$!>" "<$?>" "<$|>" sent;
+
+# Hey, that's crucial :)
+SUBREADINGS = LTR ;
+
+LIST BOS = (>>>) ;
+LIST EOS = (<<<) ;
+
+LIST NOUN = n;
+LIST VERB = vblex;
+LIST DET = det;
+LIST PRN = prn;
+LIST PREP = pr;
+LIST ADV = adv;
+LIST ADJ = adj;
+
+SECTION
+
+REMOVE (x) ;

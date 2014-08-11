@@ -1,3 +1,14 @@
 * text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
 /apertium-ara.ara.acx -text
 /apertium-ara.ara.dix -text
+/apertium-ara.ara.rlx -text
+/apertium-ara.pc.in -text
+/apertium-ara.post-ara.dix -text
+/ara.automorf.bin -text
+/configure.ac -text

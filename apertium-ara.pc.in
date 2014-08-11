@@ -1,0 +1,9 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=@libdir@
+dir=@libdir@/apertium/apertium-ara
+srcdir=@datarootdir@/apertium/apertium-ara
+
+Name: apertium-ara
+Description: Finite-state morphological transducer and constraint grammar for Arabic 
+Version: @VERSION@
