@@ -11,3 +11,4 @@
 /apertium-ara.pc.in -text
 /apertium-ara.post-ara.dix -text
 /configure.ac -text
+/modes.xml -text
