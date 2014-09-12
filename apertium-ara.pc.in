@@ -1,5 +1,5 @@
 prefix=@prefix@
-exec_prefix=${prefix}
+exec_prefix=@exec_prefix@
 libdir=@libdir@
 dir=@libdir@/apertium/apertium-ara
 srcdir=@datarootdir@/apertium/apertium-ara
