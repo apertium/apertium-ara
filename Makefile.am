@@ -13,7 +13,7 @@ TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1).autogen.bin \
         $(LANG1).rlx.bin
 
 ###############################################################################
-## Maltese transducer
+## Aragonese transducer
 ###############################################################################
 
 $(LANG1).autogen.bin: $(BASENAME).$(LANG1).dix
