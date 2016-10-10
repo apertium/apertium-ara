@@ -76,7 +76,7 @@ modes/$(LANG1)-morph.mode: modes.xml
 
 noinst_DATA=modes/$(LANG1)-morph.mode
 
-install-data-local:
+install-data-local: install-modes
 	test -d $(DESTDIR)$(apertium_ara_srcdir) || mkdir -p $(DESTDIR)$(apertium_ara_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_ara_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_ara_srcdir)
