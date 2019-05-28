@@ -27,10 +27,12 @@ Compiling
 
 Given the requirements being installed, you should be able to just run:
 
+```
 $ ./configure  
 $ make
+```
 
-You can use ./autogen.sh instead of ./configure if you're compiling  
+You can use `./autogen.sh` instead of `./configure` if you're compiling  
 from SVN.
 
 If you're doing development, you don't have to install the data, you  
@@ -39,7 +41,7 @@ can use it directly from this directory.
 If you are installing this language package as a prerequisite for an  
 Apertium translation pair, then do (typically as root / with sudo):
 
-1.  make install
+`make install`
 
 You can give a --prefix to ./configure to install as a non-root user,  
 but make sure to use the same prefix when installing the translation  
@@ -51,10 +53,10 @@ Testing
 If you are in the source directory after running make, the following  
 commands should work:
 
-$ echo "TODO: test sentence" | apertium -d . ara-morph  
+`$ echo "TODO: test sentence" | apertium -d . ara-morph`
 TODO: test analysis result
 
-$ echo "TODO: test sentence" | apertium -d . ara-tagger  
+`$ echo "TODO: test sentence" | apertium -d . ara-tagger`
 TODO: test tagger result
 
 Files and data  
@@ -71,7 +73,7 @@ For more information
 
 -   http://wiki.apertium.org/wiki/Installation
 -   http://wiki.apertium.org/wiki/apertium-ara
--   http://wiki.apertium.org/wiki/Using\_an\_lttoolbox\_dictionary
+-   http://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
 
 Help and support  
 ===
