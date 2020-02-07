@@ -16,7 +16,21 @@
       </program>
     </pipeline>
   </mode>
-
+  
+  <mode name="ara-tagger" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="ara.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="ara.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g">
+        <file name="ara.prob"/>
+      </program>     
+    </pipeline>
+  </mode>
+  
   <mode name="ara-disam" install="yes">
     <pipeline>
       <program name="lt-proc -w">
