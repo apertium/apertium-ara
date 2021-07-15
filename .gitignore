@@ -6,7 +6,7 @@
 /Makefile.in
 /aclocal.m4
 /ap_include.am
-/apertium-dan.pc
+/apertium-ara.pc
 /autom4te.cache
 /config.log
 /config.status
@@ -14,3 +14,4 @@
 /install-sh
 /missing
 /modes
+/test/*-output.txt
